@@ -1,0 +1,71 @@
+.jumbotron {
+    padding: 12px 0px;
+    background-color: #2098D1;
+    color: rgb(252, 252, 252);
+    position: relative;
+    /* background: linear-gradient(to right top, rgb(126,106,108),rgb(67,62,89), rgb(0,1,6)); */
+    font-family: 'Raleway', sans-serif;
+}
+body {
+    
+    background-image: url("../images/full-bloom.png");
+    background-repeat: repeat;
+    color: rgb(70,70,70);
+}
+#navLinks {
+    background-color: #2098D1;
+    color: rgb(252, 252, 252);
+    position: absolute;
+    
+    right: 0px;
+    padding-top: 90px;
+    padding-bottom: 25px;
+    padding-left: 150px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+#mainBody {
+    background-color: rgb(250, 250, 250);
+    opacity: 0.95;
+    width: 75%;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(190, 186, 186);
+    box-shadow: 6px 6px 0px rgb(50,50,50);
+    margin-bottom: 40px;
+
+  
+}
+#profilePic {
+    border-radius: 20px;
+    float: left;
+    margin: 20px 20px 20px 10px;
+    /* opacity: 1; */
+}
+#aboutMe {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-bottom-style: double;
+    margin-bottom: 20px;
+}
+a {
+  color: rgb(252, 252, 252);
+}
+
+/* portfolio page */
+
+
+   /* image size for card = 2500x1200 */
+  .card {
+    margin-bottom: 10px;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(70,70,70);
+    /* box-shadow: 2px 2px 0px rgb(50,50,50); */
+  }
+  .card-body {
+    background-color: rgb(252, 252, 252);
+    color: rgb(70,70,70);
+    
+  }
