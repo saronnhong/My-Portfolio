@@ -80,7 +80,7 @@ a {
       display: none; 
     }   /* hide it elsewhere */
     #mainBody {
-      width: 99%;
+      width: 97%;
     }
   }
   @media screen and (min-width: 376px) and (max-width: 875px) {
