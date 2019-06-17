@@ -74,3 +74,22 @@ a {
   #contactLinks {
     color: rgb(70,70,70);
   }
+
+  @media screen and (max-width: 375px) {
+    #navLinks, #quote { 
+      display: none; 
+    }   /* hide it elsewhere */
+    
+  }
+  @media screen and (min-width: 376px) and (max-width: 875px) {
+    #navLinks, #quote { 
+      display: none; 
+    }   /* hide it elsewhere */
+    
+  }
+  @media screen and (min-width: 876px) and (max-width: 2400px) {
+    
+    #hideUntilSmall {
+      display: none; 
+    }
+  }
