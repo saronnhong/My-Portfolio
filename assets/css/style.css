@@ -76,10 +76,12 @@ a {
   }
 
   @media screen and (max-width: 375px) {
-    #navLinks, #quote { 
+    #navLinks, #quote, #saveIcon { 
       display: none; 
     }   /* hide it elsewhere */
-    
+    #mainBody {
+      width: 99%;
+    }
   }
   @media screen and (min-width: 376px) and (max-width: 875px) {
     #navLinks, #quote { 
